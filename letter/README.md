@@ -13,9 +13,10 @@
 
 | 파일 | 내용 |
 |---|---|
-| `banner_ivoryplus.gif`, `banner_midnightplus.gif` | 고급형 움직이는 배너(아이보리 / 미드나잇) |
+| `banner_ivoryplus_v2.gif`, `banner_midnightplus_v2.gif` | 고급형 움직이는 배너(아이보리 / 미드나잇) — **지금 쓰는 판** |
 | `banner_ivory.png`, `banner_midnight.png`, `banner_mono.png` | 고급형 정지 배너 |
-| `banner_photo_spice.jpg`, `_grain`, `_lab`, `_veg` | 사진형 배너 |
+| `banner_photo_spice_v2.jpg`, `_grain_v2`, `_lab_v2`, `_veg_v2` | 사진형 배너 — **지금 쓰는 판** |
+| `banner_ivoryplus.gif`, `banner_midnightplus.gif`, `banner_photo_*.jpg`(`_v2` 없는 것) | 옛 판(부제 '전 세계 식품안전 소식을…' 들어감). 이미 보낸 메일용으로 남겨 둠 |
 | `banner_news.png` | 신문형 제호 |
 
 ## 사진 풀 `pool/`, 표지 `cover/`
@@ -24,7 +25,8 @@
 
 - `pool/<분류>_<번호>.jpg`: 1232×560, 메일에서 616×280으로 보입니다.
 - `pool/<분류>_<번호>_s.jpg`: 240×180, 편집화면의 사진 고르기 칸에 씁니다.
-- `cover/<분류>_<번호>.jpg`: 1360×600, 사진 표지형 양식의 머리 그림입니다(사진 아래쪽을 남색으로 덮고 제목을 새긴 것).
+- `cover2/<분류>_<번호>.jpg`: 1360×600, 사진 표지형 양식의 머리 그림입니다(사진 아래쪽을 남색으로 덮고 제목을 새긴 것) — **지금 쓰는 판**(2026-11-04, 부제 문구 뺌).
+- `cover/<분류>_<번호>.jpg`: 같은 그림의 옛 판(부제 들어감). 이미 보낸 메일용으로 남겨 둠.
 
 | 분류 키 | 이름 | 장수 |
 |---|---|---|
